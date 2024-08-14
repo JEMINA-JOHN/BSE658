@@ -26,6 +26,10 @@ head(covid_testdata)
 ```
 
 ```{r}
+covid_testdata
+```
+
+```{r}
 # Using nrow()  and ncol() base R functions to view the number of rows and columns for the data
 nrow(covid_testdata)
 ncol(covid_testdata)
@@ -118,6 +122,11 @@ covid_data
 > `mutate` can be used to edit/manipulate the content of the tibble.
 
 Let's say if we want the proportion of positive cases, we can use `mutate` as shown below:
+
+```{r}
+nwedata<-mutate(covid_data, Positive = Positive+100)
+nwedata
+```
 
 ```{r}
 newdata <- mutate(covid_data, prop = Positive/TotalSamples)
