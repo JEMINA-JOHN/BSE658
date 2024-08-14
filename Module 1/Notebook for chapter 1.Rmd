@@ -94,6 +94,9 @@ Assignment for chapter -1
 
 1.	Create a Numeric vector with 10 elements ranging between 20 to 30, name it Mynums. Find maximum and minimum element of the vector. Compute Sum operation on the vector put it in a variable z. Find out the 4,5,6 th element of the vector.
 
+```{r}
+#change
+```
 2.	Create a 10 element numeric vector and compute mean, median and Standard deviation of the vector. 
 
 3.	Create a dataframe with 5 participants and their math score. Calculate mean of their score.
