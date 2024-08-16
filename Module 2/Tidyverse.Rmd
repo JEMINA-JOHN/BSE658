@@ -206,6 +206,10 @@ covid_data %>%
   new_df
 ```
 
+```{r}
+new_df
+```
+
 *Q6. Sometimes, it's better to use the variable name of the product in the first line of code chunk in which `%>%` is used multiple times. How would you do that?*
 
 ### References:
